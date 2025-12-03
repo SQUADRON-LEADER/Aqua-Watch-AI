@@ -275,4 +275,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![GitHub stars](https://img.shields.io/github/stars/yourusername/aquawatch-ai)
 ![GitHub forks](https://img.shields.io/github/forks/yourusername/aquawatch-ai)
 ![GitHub issues](https://img.shields.io/github/issues/yourusername/aquawatch-ai)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/aquawatch-ai)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/aquawatch-ai)#   A q u a - W a t c h - A I  
+ 
