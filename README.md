@@ -1,7 +1,3 @@
-<!-- ANIMATED BANNER -->
-<p align="center">
-  <img src="https://i.imgur.com/z9xE8QI.gif" alt="Aqua Watch AI Banner" width="900"/>
-</p>
 
 <h1 align="center">🌊 Aqua-Watch-AI</h1>
 <h3 align="center">AI-Powered Water Quality Monitoring & Prediction System</h3>
@@ -238,3 +234,4 @@ Useful for:
 
 # 🌊 Aqua-Watch-AI  
 ### “Better Data. Cleaner Water. Safer Future.” 💧✨
+
