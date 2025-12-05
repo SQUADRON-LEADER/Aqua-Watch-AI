@@ -213,6 +213,18 @@ If you like this project or found it useful, please consider giving it a ⭐ on 
 
 ---
 
+## 👨‍💻 Author
+
+**Aqua-Watch-AI was created by:**
+
+### 🧑‍💻 *Aayush Kumar*
+
+* Developer & Machine Learning Engineer
+* Passionate about environmental AI, sustainability, and impactful tech
+* GitHub: [https://github.com/SQUADRON-LEADER](https://github.com/SQUADRON-LEADER)
+
+---
+
 ## ❤️ Acknowledgements
 
 * Open-source tools: Streamlit, scikit-learn, Plotly
