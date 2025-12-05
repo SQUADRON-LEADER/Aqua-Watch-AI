@@ -1,261 +1,139 @@
+# 🌊 Aqua-Watch-AI
 
-<h1 align="center">🌊 Aqua-Watch-AI</h1>
-<h3 align="center">AI-Powered Water Quality Monitoring & Prediction System</h3>
-
-<p align="center">🚰💧 Protecting Water, Preserving Life — through AI and data.</p>
+### *Monitoring Water. Predicting Pollution. Protecting Life.*
 
 ---
 
-<!-- BADGES -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.7+-blue" />
-  <img src="https://img.shields.io/badge/Framework-Streamlit-red" />
-  <img src="https://img.shields.io/badge/Model-RandomForest-green" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
-</p>
+## 🚀 Overview
+
+**Aqua-Watch-AI** is an AI-powered water quality monitoring and forecasting system for India.
+It analyzes **22 years of historical water-quality data** and uses machine learning to predict key pollution parameters.
+The project includes an interactive dashboard built with **Streamlit**, offering rich visualizations and predictive analytics.
 
 ---
 
-# 🎬 Demo GIF (Replace with your own GIF)
-![Demo GIF](https://via.placeholder.com/900x450.png?text=Demo+GIF+Goes+Here)
+## ✨ Features
+
+* 🔮 **AI Model for Water Quality Prediction**
+* 📊 **Interactive Dashboard** (Plotly + Streamlit)
+* 🇮🇳 **Pan-India Coverage** with 100+ monitoring stations
+* 📈 **Historical Trend Analysis**
+* 💧 **Water Quality Classification** based on TDS
+* 🧪 **Prediction of 7 Key Water Parameters**
 
 ---
 
-# 📸 Screenshots (Replace with your real screenshots)
+## 📦 Predicted Parameters
 
-### 📊 Dashboard
-![Dashboard](https://via.placeholder.com/900x450.png?text=Dashboard+Screenshot)
-
-### 🤖 Prediction Output
-![Prediction](https://via.placeholder.com/900x450.png?text=Prediction+Results)
-
-### 📈 Charts & Trends
-![Charts](https://via.placeholder.com/900x450.png?text=Charts+%26+Graphs)
-
----
-
-# 📘 Table of Contents
-- 🔍 Project Overview
-- ✨ Features
-- 🧪 Predicted Parameters
-- 🏗️ Project Structure
-- ⚡ Quick Start
-- 🎮 How to Use
-- 🤖 Model Details
-- 📊 Dataset Info
-- 🌱 Impact & Importance
-- 🚀 Future Enhancements
-- 🤝 Contributing
-- 🩺 Troubleshooting
-- 📜 License
+| Parameter | Description               | Unit |
+| --------- | ------------------------- | ---- |
+| **NH₄**   | Ammonium                  | mg/L |
+| **BSK₅**  | Biochemical Oxygen Demand | mg/L |
+| **O₂**    | Dissolved Oxygen          | mg/L |
+| **NO₃**   | Nitrate                   | mg/L |
+| **NO₂**   | Nitrite                   | mg/L |
+| **PO₄**   | Phosphate                 | mg/L |
+| **TDS**   | Total Dissolved Solids    | mg/L |
 
 ---
 
-# 🔍 Project Overview
-
-Aqua-Watch-AI is an AI-driven water-quality platform built to analyze **22 years of environmental data (2000–2021)** across India.  
-It predicts water parameters, visualizes pollution trends, and helps researchers & organizations make data-driven decisions.
-
-💡 Mission: **Smarter Data → Cleaner Water → Safer Future**
-
----
-
-# ✨ Features
-
-- 🔮 Multi-parameter AI predictions  
-- 📈 Live interactive visualization  
-- 🗺️ Covers 100+ monitoring locations  
-- 🌦️ Seasonal & long-term pollution trends  
-- 🎛️ Easy-to-use Streamlit interface  
-- ⚙️ Auto TDS & derived metrics  
-- 📊 Clean project structure + reusable ML model  
-
----
-
-# 🧪 Predicted Parameters
-
-| Parameter | Meaning | Unit | Importance |
-|----------|----------|------|-----------|
-| **NH₄** | Ammonium | mg/L | Organic pollution indicator |
-| **BSK₅ (BOD₅)** | Biological Oxygen Demand | mg/L | Waste decomposition |
-| **O₂** | Dissolved Oxygen | mg/L | Essential for aquatic life |
-| **NO₃** | Nitrate | mg/L | Agricultural runoff |
-| **NO₂** | Nitrite | mg/L | Highly toxic pollutant |
-| **PO₄** | Phosphate | mg/L | Causes algae bloom |
-| **TDS** | Total Dissolved Solids | mg/L | Measures water purity |
-
----
-
-# 🏗️ Project Structure
+## 🏗️ Project Structure
 
 ```
 Aqua-Watch-AI/
+├── app.py                         # Streamlit application
 ├── Data/
-│   ├── PB_All_2000_2021.csv
-│   └── model_columns.pkl
-├── Model/
-│   ├── pollution_model.pkl
-│   └── WaterQualityPred.ipynb
-├── App/
-│   ├── app.py
-│   └── requirements.txt
-└── README.md
+│   ├── PB_All_2000_2021.csv       # Historical dataset
+│   └── model_columns.pkl          # Input feature columns
+├── AI_Model/
+│   ├── pollution_model.pkl        # Trained ML model
+│   └── WaterQualityPred.ipynb     # Training notebook
+├── requirements.txt               # Dependencies
+└── README.md                      # Project documentation
 ```
 
 ---
 
-# ⚡ Quick Start
+## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repo
-```
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/SQUADRON-LEADER/Aqua-Watch-AI.git
 cd Aqua-Watch-AI
 ```
 
 ### 2️⃣ Install Dependencies
-```
+
+```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the App
-```
+### 3️⃣ Run the Dashboard
+
+```bash
 streamlit run app.py
 ```
 
-Open in browser:  
-👉 **http://localhost:8501**
+👉 Open `http://localhost:8501` in your browser.
 
 ---
 
-# 🎮 How to Use
+## 🧠 Machine Learning Model
 
-1. Select a monitoring location  
-2. Enter optional water-quality parameters  
-3. Click **Predict**  
-4. Review AI-generated results  
-5. Explore graphs & historical insights  
+* Model Type: **RandomForest Regressor (Multi-Output)**
+* Dataset: **2000–2021 water quality data**
+* Records: **2,863+**
+* Stations: **100+ across 20+ states**
 
----
+### Model Strengths
 
-# 🤖 Model Details
-
-<details>
-<summary>🧠 Click to Expand Model Info</summary>
-
-- **Dataset:** 2000–2021  
-- **Total Records:** ~2,863  
-- **Model:** Random Forest Regressor  
-- **Accuracy:**  
-  - R² Score > **0.85** for most parameters  
-- **Features Used:**  
-  - Year, Month, Season  
-  - State/Location  
-  - Environmental interactions  
-
-</details>
+* Handles nonlinear relationships well
+* Robust to noisy/missing data
+* Predicts all 7 parameters simultaneously
 
 ---
 
-# 📊 Dataset Info
+## 📈 Use Cases
 
-<details>
-<summary>📂 Click to Expand Dataset Details</summary>
-
-Includes key water parameters such as:
-
-- pH  
-- Nitrate / Nitrite  
-- Ammonium  
-- Dissolved Oxygen  
-- BOD₅  
-- Phosphate  
-- TDS  
-
-Useful for:
-
-- Environmental research  
-- Water pollution forecasting  
-- ML training  
-- Government & policy planning  
-
-</details>
+* Government pollution monitoring agencies
+* Environmental researchers & students
+* NGOs working on sustainability
+* Data‑driven water resource decision-making
 
 ---
 
-# 🌱 Impact & Importance
+## 📍 Future Enhancements
 
-- 💚 Protects freshwater ecosystems  
-- ⚠️ Identifies pollution hotspots  
-- 📉 Predicts contamination spikes  
-- 📊 Helps policy makers & environmental agencies  
-
----
-
-# 🚀 Future Enhancements
-
-- 🛰️ Satellite-data integration  
-- 📡 IoT real-time water-sensor connectivity  
-- 🤖 Deep learning model upgrade  
-- 📱 Mobile application  
-- 🔔 SMS/Email alert system  
-- 🌐 Public API  
-- 💬 Multi-language interface  
+* 🔗 IoT Sensor Integration for real-time monitoring
+* 📡 Satellite imagery (remote sensing) support
+* 📱 Mobile App (React Native)
+* ⚠️ Pollution alert notifications (SMS/email)
+* 🤖 Advanced Deep Learning Models
+* 🌏 Multi-language public dashboard
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
-1. Fork the repo  
-2. Create your feature branch  
-3. Commit changes  
-4. Push your branch  
-5. Create a Pull Request  
+Contributions are welcome!
+Steps:
 
-💙 Contributions are welcome!
-
----
-
-# 🩺 Troubleshooting
-
-| Issue | Fix |
-|-------|-----|
-| Missing `.pkl` files | Place them in project root |
-| Port already in use | `streamlit run app.py --server.port 8502` |
-| Prediction slow | Close apps / upgrade RAM |
-| Input errors | Verify correct numeric format |
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push & submit a Pull Request
 
 ---
 
-# 📜 License
+## 📄 License
 
-📝 Licensed under the **MIT License**
- MIT License
-
-Copyright (c) 2025 SQUADRON-LEADER
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction, including without limitation the rights  
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
-copies of the Software, and to permit persons to whom the Software is  
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in  
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING  
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER  
-DEALINGS IN THE SOFTWARE.
-
-
+This project is licensed under the **MIT License**.
 
 ---
 
-# 🌊 Aqua-Watch-AI  
-### “Better Data. Cleaner Water. Safer Future.” 💧✨
+## ❤️ Acknowledgements
 
-
+* Open-source tools: Streamlit, scikit-learn, Plotly
+* Environmental agencies for historical data
+* Contributors supporting water sustainability
