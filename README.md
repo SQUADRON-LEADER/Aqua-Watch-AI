@@ -36,7 +36,7 @@ Aqua‑Watch‑AI uses AI + Data Science to make India's water quality **predict
 It analyzes **22 years of historical water-quality data** and uses machine learning to predict key pollution parameters.
 The project includes an interactive dashboard built with **Streamlit**, offering rich visualizations and predictive analytics.
 
----
+
 
 ## ✨ Features
 
@@ -230,5 +230,6 @@ If you like this project or found it useful, please consider giving it a ⭐ on 
 * Open-source tools: Streamlit, scikit-learn, Plotly
 * Environmental agencies for historical data
 * Contributors supporting water sustainability
+
 
 
