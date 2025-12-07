@@ -30,7 +30,7 @@ Aqua‑Watch‑AI uses AI + Data Science to make India's water quality **predict
 * Supports **100+ stations across India**
 * Offers an **interactive, user‑friendly dashboard**
 
----
+
 
 **Aqua-Watch-AI** is an AI-powered water quality monitoring and forecasting system for India.
 It analyzes **22 years of historical water-quality data** and uses machine learning to predict key pollution parameters.
@@ -230,4 +230,5 @@ If you like this project or found it useful, please consider giving it a ⭐ on 
 * Open-source tools: Streamlit, scikit-learn, Plotly
 * Environmental agencies for historical data
 * Contributors supporting water sustainability
+
 
