@@ -105,7 +105,6 @@ streamlit run app.py
 
 👉 Open `http://localhost:8501` in your browser.
 
----
 
 ## 🧠 Machine Learning Model
 
@@ -230,6 +229,7 @@ If you like this project or found it useful, please consider giving it a ⭐ on 
 * Open-source tools: Streamlit, scikit-learn, Plotly
 * Environmental agencies for historical data
 * Contributors supporting water sustainability
+
 
 
 
