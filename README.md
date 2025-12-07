@@ -80,7 +80,7 @@ Aqua-Watch-AI/
 └── README.md                      # Project documentation
 ```
 
----
+
 
 ## ⚙️ Installation & Setup
 
@@ -230,6 +230,7 @@ If you like this project or found it useful, please consider giving it a ⭐ on 
 * Open-source tools: Streamlit, scikit-learn, Plotly
 * Environmental agencies for historical data
 * Contributors supporting water sustainability
+
 
 
 
