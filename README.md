@@ -63,7 +63,7 @@ Here’s what makes Aqua‑Watch‑AI powerful and unique:
 | **PO₄**   | Phosphate                 | mg/L |
 | **TDS**   | Total Dissolved Solids    | mg/L |
 
----
+
 
 ## 🏗️ Project Structure
 
@@ -230,6 +230,7 @@ If you like this project or found it useful, please consider giving it a ⭐ on 
 * Open-source tools: Streamlit, scikit-learn, Plotly
 * Environmental agencies for historical data
 * Contributors supporting water sustainability
+
 
 
 
