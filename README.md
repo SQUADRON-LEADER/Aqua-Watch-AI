@@ -17,7 +17,7 @@ Built with a mission to support environmental awareness and resource management,
 
 ### *Monitoring Water. Predicting Pollution. Protecting Life.*
 
----
+
 
 ## 🚀 Overview
 
@@ -230,3 +230,4 @@ If you like this project or found it useful, please consider giving it a ⭐ on 
 * Open-source tools: Streamlit, scikit-learn, Plotly
 * Environmental agencies for historical data
 * Contributors supporting water sustainability
+
