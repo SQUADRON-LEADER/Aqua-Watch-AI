@@ -155,7 +155,7 @@ Steps:
 3. Commit your changes
 4. Push & submit a Pull Request
 
----
+
 
 ## 📄 License
 
@@ -229,6 +229,7 @@ If you like this project or found it useful, please consider giving it a ⭐ on 
 * Open-source tools: Streamlit, scikit-learn, Plotly
 * Environmental agencies for historical data
 * Contributors supporting water sustainability
+
 
 
 
