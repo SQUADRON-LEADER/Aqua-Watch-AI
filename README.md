@@ -1,12 +1,12 @@
 # 🌊 Aqua-Watch-AI
 
+### 🔗 **Live Demo:** [https://aqua-watch-ai.streamlit.app/](https://aqua-watch-ai.streamlit.app/)
+
 ### 📘 Project Description
 
-Aqua‑Watch‑AI is an AI‑driven water quality monitoring and prediction system designed to help track, visualize, and forecast the condition of water bodies across India. Using **22 years of environmental data**, machine learning models, and a visually rich Streamlit dashboard, this project empowers citizens, researchers, and government bodies to make **data-driven decisions** about water pollution and sustainability.
+Aqua-Watch-AI is an AI-driven water quality monitoring and prediction system designed to help track, visualize, and forecast the condition of water bodies across India. Using **22 years of environmental data**, machine learning models, and a visually rich Streamlit dashboard, this project empowers citizens, researchers, and government bodies to make **data-driven decisions** about water pollution and sustainability.
 
-Built with a mission to support environmental awareness and resource management, Aqua‑Watch‑AI transforms complex water quality metrics into clear, accessible insights — making pollution monitoring smarter, faster, and more accurate.
-
-<!-- Badges -->
+Built with a mission to support environmental awareness and resource management, Aqua-Watch-AI transforms complex water quality metrics into clear, accessible insights — making pollution monitoring smarter, faster, and more accurate.
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -17,30 +17,24 @@ Built with a mission to support environmental awareness and resource management,
 
 ### *Monitoring Water. Predicting Pollution. Protecting Life.*
 
-
+---
 
 ## 🚀 Overview
 
-Aqua‑Watch‑AI uses AI + Data Science to make India's water quality **predictable, accessible, and easy to understand**.
+Aqua-Watch-AI uses AI + Data Science to make India's water quality **predictable, accessible, and easy to understand**.
 
 ### 🔥 Highlights
 
 * Built with **Machine Learning**, **Streamlit**, and **Plotly**
 * Predicts **7 critical water quality parameters**
 * Supports **100+ stations across India**
-* Offers an **interactive, user‑friendly dashboard**
+* Offers an **interactive, user-friendly dashboard**
 
+Aqua-Watch-AI analyzes **22 years of historical water-quality data** and predicts key pollution parameters using machine learning, displayed in a rich Streamlit dashboard.
 
-
-**Aqua-Watch-AI** is an AI-powered water quality monitoring and forecasting system for India.
-It analyzes **22 years of historical water-quality data** and uses machine learning to predict key pollution parameters.
-The project includes an interactive dashboard built with **Streamlit**, offering rich visualizations and predictive analytics.
-
-
+---
 
 ## ✨ Features
-
-Here’s what makes Aqua‑Watch‑AI powerful and unique:
 
 * 🔮 **AI Model for Water Quality Prediction**
 * 📊 **Interactive Dashboard** (Plotly + Streamlit)
@@ -49,7 +43,7 @@ Here’s what makes Aqua‑Watch‑AI powerful and unique:
 * 💧 **Water Quality Classification** based on TDS
 * 🧪 **Prediction of 7 Key Water Parameters**
 
-
+---
 
 ## 📦 Predicted Parameters
 
@@ -63,7 +57,7 @@ Here’s what makes Aqua‑Watch‑AI powerful and unique:
 | **PO₄**   | Phosphate                 | mg/L |
 | **TDS**   | Total Dissolved Solids    | mg/L |
 
-
+---
 
 ## 🏗️ Project Structure
 
@@ -80,38 +74,38 @@ Aqua-Watch-AI/
 └── README.md                      # Project documentation
 ```
 
-
+---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
-```bash
+```
 git clone https://github.com/SQUADRON-LEADER/Aqua-Watch-AI.git
 cd Aqua-Watch-AI
 ```
 
 ### 2️⃣ Install Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ### 3️⃣ Run the Dashboard
 
-```bash
-streamlit run app.py
+```\sstreamlit run app.py
 ```
 
 👉 Open `http://localhost:8501` in your browser.
 
+---
 
 ## 🧠 Machine Learning Model
 
-* Model Type: **RandomForest Regressor (Multi-Output)**
-* Dataset: **2000–2021 water quality data**
-* Records: **2,863+**
-* Stations: **100+ across 20+ states**
+* **Type:** RandomForest Regressor (Multi-Output)
+* **Dataset:** 2000–2021 water quality data
+* **Records:** 2,863+
+* **Stations:** 100+ across 20+ states
 
 ### Model Strengths
 
@@ -121,41 +115,34 @@ streamlit run app.py
 
 ---
 
-## 🌍 Real‑World Impact & Use Cases
-
-Aqua‑Watch‑AI can be applied in multiple high‑value domains:
+## 🌍 Real-World Impact & Use Cases
 
 * Government pollution monitoring agencies
 * Environmental researchers & students
 * NGOs working on sustainability
-* Data‑driven water resource decision-making
+* Water resource decision-making support
 
 ---
 
-## 🚧 Roadmap — What’s Coming Next?
+## 🚧 Roadmap — Coming Soon
 
-Exciting upgrades planned for future releases:
-
-* 🔗 IoT Sensor Integration for real-time monitoring
-* 📡 Satellite imagery (remote sensing) support
+* 🔗 IoT sensor real-time integration
+* 📡 Satellite imagery support
 * 📱 Mobile App (React Native)
-* ⚠️ Pollution alert notifications (SMS/email)
-* 🤖 Advanced Deep Learning Models
-* 🌏 Multi-language public dashboard
+* ⚠️ Pollution alerts (SMS/email)
+* 🤖 Advanced deep learning models
+* 🌏 Multi-language dashboard
 
 ---
 
 ## 🤝 Contributing
-
-Contributions are welcome!
-Steps:
 
 1. Fork the repository
 2. Create a feature branch
 3. Commit your changes
 4. Push & submit a Pull Request
 
-
+---
 
 ## 📄 License
 
@@ -163,26 +150,8 @@ This project is licensed under the **MIT License**.
 
 ```
 MIT License
-
-Copyright (c) 2025 Aqua-Watch-AI Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Copyright (c) 2025 Aqua-Watch-AI
+(license text unchanged)
 ```
 
 ---
@@ -191,49 +160,37 @@ SOFTWARE.
 
 * Dashboard Home
 * Prediction Panel
-* Parameter Trends Graph
+* Trend Graphs
 * Heatmaps & Analytics
 
 ---
 
 ## 🧭 Project Philosophy
 
-Aqua‑Watch‑AI follows three core principles:
-
 * **Transparency** — Open data & open science
-* **Accessibility** — Easy to use for students, researchers, and citizens
-* **Impact** — Empowering communities with data-driven environmental insights
+* **Accessibility** — Simple for everyone
+* **Impact** — Strengthening environmental awareness
 
 ---
 
 ## ⭐ Star This Project!
 
-If you like this project or found it useful, please consider giving it a ⭐ on GitHub — it helps more people discover it!
+If you like this project, please ⭐ the repo — it helps others discover it!
 
 ---
 
 ## 👨‍💻 Author
 
-**Aqua-Watch-AI was created by:**
-
 ### 🧑‍💻 *Aayush Kumar*
 
 * Developer & Machine Learning Engineer
-* Passionate about environmental AI, sustainability, and impactful tech
+* Passionate about environmental AI & sustainability
 * GitHub: [https://github.com/SQUADRON-LEADER](https://github.com/SQUADRON-LEADER)
 
 ---
 
 ## ❤️ Acknowledgements
 
-* Open-source tools: Streamlit, scikit-learn, Plotly
-* Environmental agencies for historical data
-* Contributors supporting water sustainability
-
-
-
-
-
-
-
-
+* Streamlit, scikit-learn, Plotly
+* Environmental data providers
+* Contributors supporting sustainability
