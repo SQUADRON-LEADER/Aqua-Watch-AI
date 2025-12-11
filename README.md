@@ -93,7 +93,8 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run the Dashboard
 
-```\sstreamlit run app.py
+```
+sstreamlit run app.py
 ```
 
 👉 Open `http://localhost:8501` in your browser.
@@ -210,6 +211,7 @@ If you like this project, please ⭐ the repo — it helps others discover it!
 * Streamlit, scikit-learn, Plotly
 * Environmental data providers
 * Contributors supporting sustainability
+
 
 
 
