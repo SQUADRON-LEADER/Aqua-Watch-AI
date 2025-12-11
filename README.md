@@ -148,7 +148,7 @@ pip install -r requirements.txt
 
 This project is licensed under the **MIT License**.
 
-```
+
 MIT License
 
 Copyright (c) 2025 Aqua-Watch-AI Contributors
@@ -171,7 +171,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
+
+
 
 ## 📸 Screenshots (Coming Soon)
 
@@ -209,6 +210,7 @@ If you like this project, please ⭐ the repo — it helps others discover it!
 * Streamlit, scikit-learn, Plotly
 * Environmental data providers
 * Contributors supporting sustainability
+
 
 
 
