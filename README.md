@@ -175,7 +175,7 @@ SOFTWARE.
 
 
 
-## 📸 Screenshots (Com
+## 📸 Screenshots 
 
 
 
@@ -211,6 +211,7 @@ If you like this project, please ⭐ the repo — it helps others discover it!
 * Streamlit, scikit-learn, Plotly
 * Environmental data providers
 * Contributors supporting sustainability
+
 
 
 
