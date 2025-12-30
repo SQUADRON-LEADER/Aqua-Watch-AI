@@ -192,6 +192,7 @@ SOFTWARE.
 <img width="698" height="415" alt="Screenshot 2025-10-23 175758" src="https://github.com/user-attachments/assets/c3f41411-e99e-4fbc-a09c-91df7eb1ff2b" />
 
 <img width="698" height="346" alt="Screenshot 2025-10-23 175806" src="https://github.com/user-attachments/assets/e5fe5257-f0e4-4268-a5c9-4f6f5b57cf63" />
+
 <img width="700" height="583" alt="Screenshot 2025-10-23 175823" src="https://github.com/user-attachments/assets/0801d12c-cde9-4a42-aecd-13e9b2f8cc75" />
 
 ---
@@ -225,6 +226,7 @@ If you like this project, please ⭐ the repo — it helps others discover it!
 * Streamlit, scikit-learn, Plotly
 * Environmental data providers
 * Contributors supporting sustainability
+
 
 
 
