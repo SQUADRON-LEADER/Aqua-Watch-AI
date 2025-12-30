@@ -197,6 +197,8 @@ SOFTWARE.
 
 <img width="593" height="259" alt="Screenshot 2025-10-23 175830" src="https://github.com/user-attachments/assets/ef5cc612-dae9-4fc2-a6dd-c85b4bbcb04d" />
 
+<img width="686" height="339" alt="Screenshot 2025-10-23 175845" src="https://github.com/user-attachments/assets/93621fed-41d0-4ef8-b8d4-04240897ddf4" />
+
 ---
 
 ## 🧭 Project Philosophy
@@ -228,6 +230,7 @@ If you like this project, please ⭐ the repo — it helps others discover it!
 * Streamlit, scikit-learn, Plotly
 * Environmental data providers
 * Contributors supporting sustainability
+
 
 
 
